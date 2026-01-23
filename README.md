@@ -1,2 +1,2 @@
 # NovelWebStudio
-NovelWebStudio es una herramienta web que permite producir novelas visuales lineales.
+NovelWebStudio is a web-based platform designed for the creation of linear visual novels.
