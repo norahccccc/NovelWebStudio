@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovelWebStudio</title>
+    <link rel="stylesheet" href="assets/styles/engine-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="menu">
+            <div class="menu-logo">
+                <img src="assets/icons/open-book.png" alt="" id="i-logo">
+                <h2><span class="menu-logo1">Novel</span><span class="menu-logo2">Web</span><span class="menu-logo3">Studio</span></h2>
+            </div>
+
+            <div class="menu-options">
+                <ul>
+                    <li>File</li>
+                    <li>Edit</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </section>
+        <section class="play-options">
+            <button id="btn-preview"><img src="assets/icons/play-button-arrowhead.png" alt="" id="i-play">Preview</button>
+        </section>
+    </header>
+
+    <section class="work">
+        <div class="canvas">
+            <img src="assets/images/image-test.jpeg" alt="">
+        </div>
+        <div class="tools">
+            <div class="tools-title">
+                <p>Tools</p>
+            </div>
+            <div class="dialogue">
+                <p>CURRENT DIALOGUE</p>
+                <input type="text" id="dialogue-name" placeholder="Name">
+                <textarea name="dialogue-text" id="dialogue-text" placeholder="Text"></textarea>
+            </div>
+            <div class="elements">
+                <p id="gray-title">ELEMENTS</p>
+                <div class="elements-gallery">
+                    <div>
+                        <img src="assets/icons/picture.png" alt="">
+                        <p>Backgound</p>
+                    </div>
+                    <div>
+                        <img src="assets/icons/user.png" alt="">
+                        <p>Character</p>
+                    </div>
+                    <div>
+                        <img src="assets/icons/sound-wave.png" alt="">
+                        <p>VFX</p>
+                    </div>
+                    <div>
+                        <img src="assets/icons/musical-note.png" alt="">
+                        <p>Music</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="scene-menu">
+        <div class="scene-header">
+            <button id="btn-add">Add</button>
+            <button id="btn-remove">Remove</button>
+            <div class="scene-select">
+                <p>CURRENT SCENE</p>
+                <select name="scenes" id="scene-select-menu">
+                      <option value="nueva-escena">New Scene</option>
+                </select>
+            </div>
+        </div>
+        <div class="scene-gallery">
+            <div class="scene">
+                <div class="scene-reference">
+                    <div class="scene-number">
+                        <p>1</p>
+                    </div>
+                    <div class="scene-remove"><img src="assets/icons/remove.png" alt=""></div>
+                </div>
+                <div class="scene-info">
+                    <p class="scene-nombre">Yuki</p>
+                    <p class="scene-dialogue">¡Hello! Welcome t...</p>
+                </div>
+            </div>
+            <div class="scene-plus">
+                <img src="assets/icons/add.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="assets/scripts/engine-script.js"></script>
+</body>
+
+</html>
