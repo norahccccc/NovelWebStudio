@@ -12,6 +12,8 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    min-width: 1500px;
+    min-height: 1200px;
 }
 
 .no-select {
@@ -249,6 +251,7 @@ header .play-options button:hover {
 
 .elements-gallery div:hover {
     background-color: #767679;
+    transition: all 0.2s ease-out;
 }
 
 .elements-gallery div img {
@@ -301,6 +304,8 @@ header .play-options button:hover {
 
 #btn-remove {
     background-color: rgb(121, 55, 178);
+    width: 150x;
+    margin-left: 5px;
 }
 
 #btn-remove:hover {
@@ -432,6 +437,7 @@ header .play-options button:hover {
     background-position: center;
     border-radius: 5px;
     flex-shrink: 0;
+    cursor: pointer;
     /* Evita que se aplaste si hay muchas */
 }
 
@@ -458,6 +464,7 @@ header .play-options button:hover {
     background-color: #9c00eb;
     cursor: pointer;
     border: 2px solid #9d00ff;
+    transition: all 0.2s ease-out;
 }
 
 .scene-select select {
@@ -467,4 +474,11 @@ header .play-options button:hover {
     outline: none;
     background-color: #373455;
     color: white;
+    height: 30px;
+    font-size: 15px;
+}
+
+.scene-select {
+    border-left: 2px solid #767679;
+    padding-left: 10px;
 }
